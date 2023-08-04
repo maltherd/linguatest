@@ -1,86 +1,86 @@
 {
-  "global": {
-    "app-title": "eye-sight.org | Eyesight test",
-    "distance-2-m": "2 metres",
-    "distance-40-cm": "40 cm",
-    "left-eye": "Left eye",
-    "right-eye": "Right eye",
-    "screen-warning": {
-      "description": "If you’re using a smartphone and holding it vertically, try tilting the phone horizontally.",
-      "title": "Your screen is too narrow to carry out the DIY Digital Visual Acuity Test. "
-    }
-  },
-  "page-distance": {
-    "info": {
-      "back-button": "Back",
-      "message-2-m": "<h3>Instructions for the distance vision test</h3><p>You will need a helper to test your distance vision.<br><span class='underline'>How to test your distance vision.</span></p><div class='first'><div class='text'><p>1. Place your screen 2 metres from your eyes. Measure the distance accurately. Your helper should stand by the screen.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in twelve rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Your helper should enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Press \"Test\" when you are both ready.</p>",
-      "message-40-cm": "<h3>Instructions for reading vision test</h3><p>You can test your reading vision alone.<br><span class='underline'>How to test your reading vision:</span></p><div class='first'><div class='text'><p>1. Place the screen 40 cm from your eyes. Measure the distance accurately.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in eleven rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Press \"Continue\" when you are ready.</p>",
-      "start-test-button": "Continue"
-    },
-    "set": {
-      "back-to-start-button": "Back",
-      "intro": "<h3>Select distance</h3><p>You can test your eyesight from two distances:<br>Reading distance (about 40 cm)<br>Long distance (about 2 metres)</p>"
-    },
-    "title": "Eyesight test"
-  },
-  "page-intro": {
-    "calibrate-screen-button": "Start",
-    "intro": "<h3>Welcome to the eyesight test</h3><ol><li>Go inside.</li><li>Turn the backlight on the screen all the way up.</li><li>If you wear glasses or contact lenses, keep them on throughout the whole test.</li></ol><p>Press \"Start\".</p><div class=\"infos\"><img class=\"image\" src=\"{imgInfos}\" /><div><p><strong>Medical Device:</strong><br />DIY Digital Acuity Visual Test</p><p><strong>Manufacturer:</strong><br />Øjenforeningen Værn om Synet</p><p><strong>For Investigational use only:</strong><br />Device use is restricted to the clinical investigation, it may not be used for any other purpose.</p></div></div>",
-    "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
-    "title": "Eyesight test"
-  },
-  "page-results": {
-    "disclaimer-10": "",
-    "disclaimer-5": "<p>Thanks for taking a DIY Digital Visual Acuity Test on eye-sight.org. If you are unsure whether you have good eyesight, start by contacting an optician. If an optician is not able to help you to see clearly, it is important that you find out why. An eye care specialist (ophthalmologist) can help you with this.<br><p>This eyesight test:</p><ul><li>Is not a medical device.</li><li>Is not suitable for any medical purposes.</li><li>Is intended for healthy individuals.</li><li>Is not meant to replace a professional eyesight test.</li><li>Does not collect any personal identifiable data about you, or anyone else. </li></ol><p>Always consult an optician or an eye care specialist for any medical questions or concerns about your vision.</p>",
-    "go-back-link": "<a href=\"https://eye-sight.org\">Go back to eye-sight.org</a>",
-    "message-10-2-m": "<b>Results at 2m:</b> left eye {leftResult} and right eye {rightResult}",
-    "message-10-40-cm": "<b>Results at 40cm:</b> left eye {leftResult} and right eye {rightResult}",
-    "message-5-2-m": "<h3>You have now completed your distance vision test.</h3><p>You have replied that you saw {successful} of the {steps} symbols clearly at a 2-metre distance.<br>Others can see 40 out of the 40 symbols clearly at the same distance.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
-    "message-5-40-cm": "<h3>You have now completed your reading vision test.</h3><p>You have replied that you saw {successful} of the {steps} symbols clearly at a 40-cm distance.<br>Others can see 36 out of the 40 symbols clearly at the same distance.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
-    "test-again-button": "Select a new test",
-    "title": "Eyesight test",
-    "error": "your vision is below"
-  },
   "page-scale": {
-    "intro": "<h3>Adjust screen size</h3><p>Place a credit card on the screen inside the cropmarks.<br>Adjust the screen size using the buttons. Adjust the cropmarks so they align with the width of your credit card.<br>Press \"Ready\" when you have adjusted the screen size.</p>",
-    "larger-button": "Bigger +1",
-    "larger-more-button": "Bigger +5",
-    "larger-text": "<p>Bigger</p>",
-    "smaller-button": "Smaller -1",
     "smaller-more-button": "Smaller -5",
     "smaller-text": "<p>Smaller</p>",
     "start-test-button": "Ready",
+    "larger-button": "Bigger +1",
+    "intro": "<h3>Adjust screen size</h3><p>Place a credit card on the screen inside the cropmarks.<br>Adjust the screen size using the buttons. Adjust the cropmarks so they align with the width of your credit card.<br>Press \"Ready\" when you have adjusted the screen size.</p>",
+    "smaller-button": "Smaller -1",
+    "title": "Eyesight test",
+    "larger-more-button": "Bigger +5",
+    "larger-text": "<p>Bigger</p>"
+  },
+  "page-checklist": {
+    "checkbox-6": "I keep to the left eye",
+    "start-test-button": "Test",
+    "checkbox-3": "I have turned up the brightness completely",
+    "checkbox-1": "I am inside",
+    "checkbox-4": "I have measured that my eyes are 40 cm / 2 meters from the screen",
+    "checkbox-2": "I customized the screen based on a credit card",
+    "checkbox-5": "I wear my glasses (if you wear glasses)"
+  },
+  "page-results": {
+    "message-5-2-m": "<h3>You have now completed your distance vision test.</h3><p>You have replied that you saw {successful} of the {steps} symbols clearly at a 2-metre distance.<br>Others can see 40 out of the 40 symbols clearly at the same distance.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+    "disclaimer-5": "<p>Thanks for taking a DIY Digital Visual Acuity Test on eye-sight.org. If you are unsure whether you have good eyesight, start by contacting an optician. If an optician is not able to help you to see clearly, it is important that you find out why. An eye care specialist (ophthalmologist) can help you with this.<br><p>This eyesight test:</p><ul><li>Is not a medical device.</li><li>Is not suitable for any medical purposes.</li><li>Is intended for healthy individuals.</li><li>Is not meant to replace a professional eyesight test.</li><li>Does not collect any personal identifiable data about you, or anyone else. </li></ol><p>Always consult an optician or an eye care specialist for any medical questions or concerns about your vision.</p>",
+    "error": "your vision is below",
+    "disclaimer-10": "",
+    "go-back-link": "<a href=\"https://eye-sight.org\">Go back to eye-sight.org</a>",
+    "message-10-40-cm": "<b>Results at 40cm:</b> left eye {leftResult} and right eye {rightResult}",
+    "test-again-button": "Select a new test",
+    "message-10-2-m": "<b>Results at 2m:</b> left eye {leftResult} and right eye {rightResult}",
+    "message-5-40-cm": "<h3>You have now completed your reading vision test.</h3><p>You have replied that you saw {successful} of the {steps} symbols clearly at a 40-cm distance.<br>Others can see 36 out of the 40 symbols clearly at the same distance.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
     "title": "Eyesight test"
   },
   "page-test": {
-    "down": "Down",
-    "left": "Left",
-    "next-round": "Next round",
     "notice-eye-shift": {
       "description": "<p>You can now test your left eye.<br>Cover your <strong>right</strong> eye.<br>Keep the screen {distance} away from your eyes<br>Press \"Next round\".</p>",
       "title": "You have now tested your right eye."
     },
+    "right": "Right",
+    "next-round": "Next round",
+    "up": "Up",
     "notice-too-many-errors": {
-      "next-eye": "<p>You have now tested your right eye.<br>You can now test your left eye.<br>Cover your <strong>right</strong> eye.<br>Keep the screen {distance} away from your eyes<br>Press \"Next round\".</p>",
       "test-completed": "<p>You have now tested your left eye and completed the test. <br>Press \"Show results\".</p>",
+      "next-eye": "<p>You have now tested your right eye.<br>You can now test your left eye.<br>Cover your <strong>right</strong> eye.<br>Keep the screen {distance} away from your eyes<br>Press \"Next round\".</p>",
       "title": "Two errors"
     },
-    "now-testing": "<strong>Testing</strong>",
+    "down": "Down",
     "quit-test": "Leave test",
-    "right": "Right",
-    "show-results": "Show results",
-    "title": "Eyesight test",
+    "now-testing": "<strong>Testing</strong>",
     "undo-last": "Undo last",
-    "up": "Up"
+    "left": "Left",
+    "show-results": "Show results",
+    "title": "Eyesight test"
   },
-  "page-checklist": {
-    "checkbox-1": "I am inside",
-    "checkbox-2": "I customized the screen based on a credit card",
-    "checkbox-3": "I have turned up the brightness completely",
-    "checkbox-4": "I have measured that my eyes are 40 cm / 2 meters from the screen",
-    "checkbox-5": "I wear my glasses (if you wear glasses)",
-    "checkbox-6": "I keep to the left eye",
-    "start-test-button": "Test"
+  "global": {
+    "right-eye": "Right eye",
+    "screen-warning": {
+      "description": "If you\u2019re using a smartphone and holding it vertically, try tilting the phone horizontally.",
+      "title": "Your screen is too narrow to carry out the DIY Digital Visual Acuity Test. "
+    },
+    "left-eye": "Left eye",
+    "app-title": "eye-sight.org | Eyesight test",
+    "distance-40-cm": "40 cm",
+    "distance-2-m": "2 metres"
+  },
+  "page-intro": {
+    "calibrate-screen-button": "Start",
+    "title": "Eyesight test",
+    "intro": "<h3>Welcome to the eyesight test</h3><ol><li>Go inside.</li><li>Turn the backlight on the screen all the way up.</li><li>If you wear glasses or contact lenses, keep them on throughout the whole test.</li></ol><p>Press \"Start\".</p><div class=\"infos\"><img class=\"image\" src=\"{imgInfos}\" /><div><p><strong>Medical Device:</strong><br />DIY Digital Acuity Visual Test</p><p><strong>Manufacturer:</strong><br />\u00d8jenforeningen V\u00e6rn om Synet</p><p><strong>For Investigational use only:</strong><br />Device use is restricted to the clinical investigation, it may not be used for any other purpose.</p></div></div>",
+    "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>"
+  },
+  "page-distance": {
+    "set": {
+      "back-to-start-button": "Back",
+      "intro": "<h3>Select distance</h3><p>You can test your eyesight from two distances:<br>Reading distance (about 40 cm)<br>Long distance (about 2 metres)</p>"
+    },
+    "info": {
+      "message-2-m": "<h3>Instructions for the distance vision test</h3><p>You will need a helper to test your distance vision.<br><span class='underline'>How to test your distance vision.</span></p><div class='first'><div class='text'><p>1. Place your screen 2 metres from your eyes. Measure the distance accurately. Your helper should stand by the screen.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in twelve rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Your helper should enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Press \"Test\" when you are both ready.</p>",
+      "back-button": "Back",
+      "message-40-cm": "<h3>Instructions for reading vision test</h3><p>You can test your reading vision alone.<br><span class='underline'>How to test your reading vision:</span></p><div class='first'><div class='text'><p>1. Place the screen 40 cm from your eyes. Measure the distance accurately.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in eleven rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Press \"Continue\" when you are ready.</p>",
+      "start-test-button": "Continue"
+    },
+    "title": "Eyesight test"
   },
   "page-proper-dimensions": {
     "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"

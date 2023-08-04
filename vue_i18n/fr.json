@@ -1,86 +1,86 @@
 {
-  "global": {
-    "app-title": "eye-sight.org | Test de vue",
-    "distance-2-m": "2 m",
-    "distance-40-cm": "40 cm",
-    "left-eye": "Œil gauche",
-    "right-eye": "Œil droit",
-    "screen-warning": {
-      "description": "Si vous utilisez un smartphone en le tenant à la verticale, essayez de le basculer à l’horizontale.",
-      "title": "Votre écran est trop petit pour pouvoir procéder à cet autotest."
-    }
+  "page-scale": {
+    "smaller-more-button": "R\u00e9duire -5",
+    "smaller-text": "<p>R\u00e9duire</p>",
+    "start-test-button": "Pr\u00eat",
+    "larger-button": "Agrandir +1",
+    "intro": "<h3>R\u00e9glage de la taille de l\u2019\u00e9cran</h3><p>Posez une carte de cr\u00e9dit contre l\u2019\u00e9cran dans le cadre.<br>Adaptez la taille du cadre \u00e0 l\u2019aide des boutons. Il est important de r\u00e9gler le cadre de fa\u00e7on \u00e0 ce qu\u2019il corresponde \u00e0 la largeur d\u2019une carte de cr\u00e9dit.<br>Cliquez sur \u00ab Termin\u00e9 \u00bb une fois le r\u00e9glage termin\u00e9.</p>",
+    "smaller-button": "R\u00e9duire -1",
+    "title": "Test de vue",
+    "larger-more-button": "Agrandir +5",
+    "larger-text": "<p>Agrandir</p>"
   },
-  "page-distance": {
-    "info": {
-      "back-button": "Retour",
-      "message-2-m": "<h3>INSTRUCTIONS DU TEST DE VUE DE LOIN</h3><p>Vous aurez besoin de vous faire aider pour tester votre vision de loin.<br><span class='underline'>Voici comment procéder.</span></p><div class='first'><div class='text'><p>1. Positionnez l’écran à 2 m de vos yeux. Mesurez cette distance avec précision. Votre partenaire doit se tenir à côté de l’écran.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Au cours du test, 5 séries de 4 cercles apparaissent à l’écran. L’ouverture dans chaque cercle est-elle dirigée vers le haut, vers le bas, vers la gauche ou vers la droite ? Votre partenaire saisit vos réponses en faisant glisser le cercle en question ou en utilisant les flèches ou les boutons. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testez un seul œil à la fois.</p></div></div><div class='fourth'><div class='text'><p>4. Commencez par couvrir l’œil <strong>gauche</strong>.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Cliquez sur « TEST » quand vous êtes prêts.</p>",
-      "message-40-cm": "<h3>INSTRUCTIONS DU TEST DE VUE DE PRÈS</h3><p>Vous pouvez être seul pour effectuer ce test de votre vision de près.<br><span class='underline'>Comment tester votre vision de près :</span></p><div class='first'><div class='text'><p>1. Positionnez l’écran à 40 cm de vos yeux. Mesurez cette distance avec précision.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Au cours du test, 5 séries de 4 cercles apparaissent à l’écran. L’ouverture dans chaque cercle est-elle dirigée vers le haut, vers le bas, vers la gauche ou vers la droite ? Pour saisir vos réponses, vous pouvez faire glisser le cercle en question ou utiliser les flèches ou les boutons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testez un seul œil à la fois.</p></div></div><div class='fourth'><div class='text'><p>4. Commencez par couvrir l’œil <strong>gauche</strong>.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Cliquez sur « CONTINUER » quand vous êtes prêt.</p>",
-      "start-test-button": "Continuer"
-    },
-    "set": {
-      "back-to-start-button": "Retour",
-      "intro": "<h3>Choix de la distance</h3><p>Vous pouvez tester votre vue à deux distances différentes : <br>Distance de lecture (env. 40 cm)<br>Longue distance (env. 2 m)</p>"
-    },
-    "title": "Test de vue"
-  },
-  "page-intro": {
-    "calibrate-screen-button": "Démarrer",
-    "intro": "<h3>Bienvenue à ce test de vue</h3><ol><li>Placez-vous à l’intérieur. </li><li>Allumez toutes les lumières. </li><li>Si vous portez des lunettes, portez-les pendant l’intégralité du test</li></ol><p>Cliquez sur « Démarrer ».</p>",
-    "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
-    "title": "Test de vue"
+  "page-checklist": {
+    "checkbox-6": "I keep to the left eye",
+    "start-test-button": "Test",
+    "checkbox-3": "I have turned up the brightness completely",
+    "checkbox-1": "I am inside",
+    "checkbox-4": "I have measured that my eyes are 40 cm / 2 meters from the screen",
+    "checkbox-2": "I customized the screen based on a credit card",
+    "checkbox-5": "I wear my glasses (if you wear glasses)"
   },
   "page-results": {
+    "message-5-2-m": "<h3>Le test de votre vision de loin est d\u00e9sormais termin\u00e9.</h3><p>Vous avez indiqu\u00e9 avoir vu correctement {successful} symboles sur {steps} \u00e0 une distance de 2 m.<br>D\u2019autres participants peuvent voir 40 symboles sur 40 de fa\u00e7on nette \u00e0 la m\u00eame distance.<sup>*</sup><br><em class='small'>* Source : Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophtalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+    "disclaimer-5": "<p>Merci d\u2019avoir choisi un autotest de vue sur eye-sight.org. Si vous avez des doutes sur votre vue, commencez par consulter un opticien. Si un opticien n\u2019est pas en mesure de r\u00e9gler vos probl\u00e8mes de vue, il est important de comprendre pourquoi. Dans ce cas, un ophtalmologiste peut vous aider.<br><p>Le pr\u00e9sent test de vue :</p><ul><li>N\u2019est pas un dispositif m\u00e9dical.</li><li>Ne convient pas \u00e0 un usage m\u00e9dical.</li><li>Est destin\u00e9 \u00e0 des personnes en bonne sant\u00e9.</li><li>Ne remplace en aucun cas un test de vue effectu\u00e9 par un professionnel.</li><li>Ne collecte aucune donn\u00e9e \u00e0 caract\u00e8re personnel vous concernant vous, ni personne d\u2019autre. </li></ol><p>Veuillez syst\u00e9matiquement consulter un opticien ou un ophtalmologiste si vous avez des questions ou des doutes sur votre vue.</p>",
+    "error": "votre vision est en dessous de",
     "disclaimer-10": "",
-    "disclaimer-5": "<p>Merci d’avoir choisi un autotest de vue sur eye-sight.org. Si vous avez des doutes sur votre vue, commencez par consulter un opticien. Si un opticien n’est pas en mesure de régler vos problèmes de vue, il est important de comprendre pourquoi. Dans ce cas, un ophtalmologiste peut vous aider.<br><p>Le présent test de vue :</p><ul><li>N’est pas un dispositif médical.</li><li>Ne convient pas à un usage médical.</li><li>Est destiné à des personnes en bonne santé.</li><li>Ne remplace en aucun cas un test de vue effectué par un professionnel.</li><li>Ne collecte aucune donnée à caractère personnel vous concernant vous, ni personne d’autre. </li></ol><p>Veuillez systématiquement consulter un opticien ou un ophtalmologiste si vous avez des questions ou des doutes sur votre vue.</p>",
     "go-back-link": "<a href=\"https://eye-sight.org/fr\">Revenir sur eye-sight.org</a>",
-    "message-10-2-m": "",
     "message-10-40-cm": "",
-    "message-5-2-m": "<h3>Le test de votre vision de loin est désormais terminé.</h3><p>Vous avez indiqué avoir vu correctement {successful} symboles sur {steps} à une distance de 2 m.<br>D’autres participants peuvent voir 40 symboles sur 40 de façon nette à la même distance.<sup>*</sup><br><em class='small'>* Source : Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophtalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
-    "message-5-40-cm": "<h3>Le test de votre vision de près est désormais terminé.</h3><p>Vous avez indiqué avoir vu correctement {successful} symboles sur {steps} à une distance de 40 cm.<br>D’autres participants peuvent voir 36 symboles sur 40 de façon nette à la même distance. <sup>*</sup><br><em class='small'>* Source : Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophtalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
     "test-again-button": "Choisir un nouveau test",
-    "title": "Test de vue",
-    "error": "votre vision est en dessous de"
-  },
-  "page-scale": {
-    "intro": "<h3>Réglage de la taille de l’écran</h3><p>Posez une carte de crédit contre l’écran dans le cadre.<br>Adaptez la taille du cadre à l’aide des boutons. Il est important de régler le cadre de façon à ce qu’il corresponde à la largeur d’une carte de crédit.<br>Cliquez sur « Terminé » une fois le réglage terminé.</p>",
-    "larger-button": "Agrandir +1",
-    "larger-more-button": "Agrandir +5",
-    "larger-text": "<p>Agrandir</p>",
-    "smaller-button": "Réduire -1",
-    "smaller-more-button": "Réduire -5",
-    "smaller-text": "<p>Réduire</p>",
-    "start-test-button": "Prêt",
+    "message-10-2-m": "",
+    "message-5-40-cm": "<h3>Le test de votre vision de pr\u00e8s est d\u00e9sormais termin\u00e9.</h3><p>Vous avez indiqu\u00e9 avoir vu correctement {successful} symboles sur {steps} \u00e0 une distance de 40 cm.<br>D\u2019autres participants peuvent voir 36 symboles sur 40 de fa\u00e7on nette \u00e0 la m\u00eame distance. <sup>*</sup><br><em class='small'>* Source : Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophtalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
     "title": "Test de vue"
   },
   "page-test": {
-    "down": "Bas",
-    "left": "Gauche",
-    "next-round": "Série suivante",
     "notice-eye-shift": {
-      "description": "<p>Vous pouvez désormais passer à l’œil gauche.<br>Couvrez-vous l’œil <strong>droit</strong>.<br>Conservez l’écran à {distance} de vos yeux.<br>Cliquez sur « Série suivante ».</p>",
-      "title": "Vous venez de tester votre œil droit."
+      "description": "<p>Vous pouvez d\u00e9sormais passer \u00e0 l\u2019\u0153il gauche.<br>Couvrez-vous l\u2019\u0153il <strong>droit</strong>.<br>Conservez l\u2019\u00e9cran \u00e0 {distance} de vos yeux.<br>Cliquez sur \u00ab S\u00e9rie suivante \u00bb.</p>",
+      "title": "Vous venez de tester votre \u0153il droit."
     },
+    "right": "Droite",
+    "next-round": "S\u00e9rie suivante",
+    "up": "Haut",
     "notice-too-many-errors": {
-      "next-eye": "<p>Vous venez de tester votre œil droit.<br>Vous pouvez désormais passer à l’œil gauche.<br>Couvrez-vous l’œil <strong>droit</strong>.<br>Conservez l’écran à {distance} de vos yeux.<br>Cliquez sur « Série suivante ».</p>",
-      "test-completed": "<p>Vous venez de tester votre œil gauche, et le test est terminé.<br>Cliquez sur « Afficher le résultat ».</p>",
+      "test-completed": "<p>Vous venez de tester votre \u0153il gauche, et le test est termin\u00e9.<br>Cliquez sur \u00ab Afficher le r\u00e9sultat \u00bb.</p>",
+      "next-eye": "<p>Vous venez de tester votre \u0153il droit.<br>Vous pouvez d\u00e9sormais passer \u00e0 l\u2019\u0153il gauche.<br>Couvrez-vous l\u2019\u0153il <strong>droit</strong>.<br>Conservez l\u2019\u00e9cran \u00e0 {distance} de vos yeux.<br>Cliquez sur \u00ab S\u00e9rie suivante \u00bb.</p>",
       "title": "Deux erreurs"
     },
-    "now-testing": "<strong>Test en cours </strong>",
+    "down": "Bas",
     "quit-test": "Quitter le test",
-    "right": "Droite",
-    "show-results": "Afficher le résultat",
-    "title": "Test de vue",
+    "now-testing": "<strong>Test en cours </strong>",
     "undo-last": "Annuler",
-    "up": "Haut"
+    "left": "Gauche",
+    "show-results": "Afficher le r\u00e9sultat",
+    "title": "Test de vue"
   },
-  "page-checklist": {
-    "checkbox-1": "I am inside",
-    "checkbox-2": "I customized the screen based on a credit card",
-    "checkbox-3": "I have turned up the brightness completely",
-    "checkbox-4": "I have measured that my eyes are 40 cm / 2 meters from the screen",
-    "checkbox-5": "I wear my glasses (if you wear glasses)",
-    "checkbox-6": "I keep to the left eye",
-    "start-test-button": "Test"
+  "global": {
+    "right-eye": "\u0152il droit",
+    "screen-warning": {
+      "description": "Si vous utilisez un smartphone en le tenant \u00e0 la verticale, essayez de le basculer \u00e0 l\u2019horizontale.",
+      "title": "Votre \u00e9cran est trop petit pour pouvoir proc\u00e9der \u00e0 cet autotest."
+    },
+    "left-eye": "\u0152il gauche",
+    "app-title": "eye-sight.org | Test de vue",
+    "distance-40-cm": "40 cm",
+    "distance-2-m": "2 m"
+  },
+  "page-intro": {
+    "calibrate-screen-button": "D\u00e9marrer",
+    "title": "Test de vue",
+    "intro": "<h3>Bienvenue \u00e0 ce test de vue</h3><ol><li>Placez-vous \u00e0 l\u2019int\u00e9rieur. </li><li>Allumez toutes les lumi\u00e8res. </li><li>Si vous portez des lunettes, portez-les pendant l\u2019int\u00e9gralit\u00e9 du test</li></ol><p>Cliquez sur \u00ab D\u00e9marrer \u00bb.</p>",
+    "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>"
+  },
+  "page-distance": {
+    "set": {
+      "back-to-start-button": "Retour",
+      "intro": "<h3>Choix de la distance</h3><p>Vous pouvez tester votre vue \u00e0 deux distances diff\u00e9rentes : <br>Distance de lecture (env. 40 cm)<br>Longue distance (env. 2 m)</p>"
+    },
+    "info": {
+      "message-2-m": "<h3>INSTRUCTIONS DU TEST DE VUE DE LOIN</h3><p>Vous aurez besoin de vous faire aider pour tester votre vision de loin.<br><span class='underline'>Voici comment proc\u00e9der.</span></p><div class='first'><div class='text'><p>1. Positionnez l\u2019\u00e9cran \u00e0 2 m de vos yeux. Mesurez cette distance avec pr\u00e9cision. Votre partenaire doit se tenir \u00e0 c\u00f4t\u00e9 de l\u2019\u00e9cran.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Au cours du test, 5 s\u00e9ries de 4 cercles apparaissent \u00e0 l\u2019\u00e9cran. L\u2019ouverture dans chaque cercle est-elle dirig\u00e9e vers le haut, vers le bas, vers la gauche ou vers la droite ? Votre partenaire saisit vos r\u00e9ponses en faisant glisser le cercle en question ou en utilisant les fl\u00e8ches ou les boutons. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testez un seul \u0153il \u00e0 la fois.</p></div></div><div class='fourth'><div class='text'><p>4. Commencez par couvrir l\u2019\u0153il <strong>gauche</strong>.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Cliquez sur \u00ab TEST \u00bb quand vous \u00eates pr\u00eats.</p>",
+      "back-button": "Retour",
+      "message-40-cm": "<h3>INSTRUCTIONS DU TEST DE VUE DE PR\u00c8S</h3><p>Vous pouvez \u00eatre seul pour effectuer ce test de votre vision de pr\u00e8s.<br><span class='underline'>Comment tester votre vision de pr\u00e8s :</span></p><div class='first'><div class='text'><p>1. Positionnez l\u2019\u00e9cran \u00e0 40 cm de vos yeux. Mesurez cette distance avec pr\u00e9cision.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Au cours du test, 5 s\u00e9ries de 4 cercles apparaissent \u00e0 l\u2019\u00e9cran. L\u2019ouverture dans chaque cercle est-elle dirig\u00e9e vers le haut, vers le bas, vers la gauche ou vers la droite ? Pour saisir vos r\u00e9ponses, vous pouvez faire glisser le cercle en question ou utiliser les fl\u00e8ches ou les boutons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testez un seul \u0153il \u00e0 la fois.</p></div></div><div class='fourth'><div class='text'><p>4. Commencez par couvrir l\u2019\u0153il <strong>gauche</strong>.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Cliquez sur \u00ab CONTINUER \u00bb quand vous \u00eates pr\u00eat.</p>",
+      "start-test-button": "Continuer"
+    },
+    "title": "Test de vue"
   },
   "page-proper-dimensions": {
     "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
