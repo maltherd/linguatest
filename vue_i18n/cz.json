@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Zkouška zraku",
+        "distance-2-m": "2 metry",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Levé oko",
+        "right-eye": "Pravé oko",
+        "screen-warning": {
+            "description": "Pokud používáte chytrý telefon a držíte jej ve svislé poloze, zkuste jej natočit do vodorovné polohy.",
+            "title": "Vaše obrazovka je příliš úzká na to, abyste mohli provést digitální samovyšetření zrakové ostrosti. "
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Zpět",
+            "message-2-m": "<h3>Pokyny ke zkoušce vidění do dálky</h3><p>Ke zkoušce vidění do dálky budete potřebovat pomocníka.<br><span class='underline'>Jak si vyzkoušet vidění do dálky.</span></p><div class='first'><div class='text'><p>1. Umístěte obrazovku 2 metry od očí. Změřte vzdálenost přesně. Váš pomocník se postaví k obrazovce.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Zkouška ukazuje čtyři kruhy najednou v pěti kolech. Směřuje otvor v kruzích nahoru, dolů, doleva nebo doprava? Pomocník může zadávat odpovědi přejetím prstem, pomocí šipek nebo kliknutím na tlačítka.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Proveďte zkoušku vždy pro každé oko zvlášť.</p></div></div><div class='fourth'><div class='text'><p>4. Začněte tím, že si zakryjete <strong>levé</strong> oko.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Až budete oba připraveni, stiskněte tlačítko „Test“</p>",
+            "message-40-cm": "<h3>Pokyny ke zkoušce vidění na čtení</h3><p>Vidění na čtení si můžete vyzkoušet sami.<br><span class='underline'>Jak si vyzkoušet vidění na čtení:</span></p><div class='first'><div class='text'><p>1. Umístěte obrazovku 40 cm od očí. Změřte vzdálenost přesně.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Zkouška ukazuje čtyři kruhy najednou v pěti kolech. Směřuje otvor v kruzích nahoru, dolů, doleva nebo doprava? Odpovědi zadávejte přejetím prstem, pomocí šipek nebo kliknutím na tlačítka.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Proveďte zkoušku vždy pro každé oko zvlášť.</p></div></div><div class='fourth'><div class='text'><p>4. Začněte tím, že si zakryjete <strong>levé</strong> oko.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Až budete připraveni, stiskněte tlačítko „Test“.</p>",
+            "start-test-button": "Test"
+        },
+        "set": {
+            "back-to-start-button": "Zpět",
+            "intro": "<h3>Výběr vzdálenosti</h3><p>Zrak si můžete vyzkoušet ze dvou vzdáleností:<br>Čtecí vzdálenost (cca 40 cm)<br>Delší vzdálenost (cca 2 metry)</p>"
+        },
+        "title": "Zkouška zraku"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Start",
+        "intro": "<h3>Vítejte na zkoušce zraku</h3><ol><li>Přejděte na test. </li><li>Zesilte podsvícení obrazovky až na maximum. </li><li>Pokud máte nasazené brýle nebo kontaktní čočky, mějte je nasazené po celou dobu zkoušky.</li></ol><p>Stiskněte tlačítko „Start“.</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Zkouška zraku"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Děkujeme, že jste se využili digitální samovyšetření zrakové ostrosti na webu eye-sight.org. Pokud si nejste jisti, zda máte dobrý zrak, začněte tím, že navštívíte optika. Pokud vám optik není schopen pomoci s ostrostí vidění, je důležité zjistit důvod. S tím vám může pomoci oční specialista (oftalmolog).<br><p>Tato zkouška zraku:</p><ul><li>Není lékařským prostředkem.</li><li>Není vhodná pro žádné lékařské účely.</li><li>Je určena zdravým jedincům.</li><li>Neslouží jako náhrada profesionálního vyšetření zraku.</li><li>Neshromažďuje žádné osobní údaje o vás ani o nikom jiném. </li></ol><p>Veškeré lékařské dotazy nebo obavy týkající se vašeho zraku vždy konzultujte s optikem nebo očním specialistou.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/cz\">Zpět na web eye-sight.org</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Právě jste dokončili zkoušku vidění na dálku.</h3><p>Odpověděli jste, že na vzdálenost 2 m vidíte zřetelně {successful} ze {steps} symbolů.<br>Ostatní vidí na stejnou vzdálenost jasně 40 ze 40 symbolů.<sup>*</sup><br><em class='small'>* Zdroj: Lisbeth Jelveh Sandfeld, PhD, hlavní konzultantka. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Právě jste dokončili zkoušku vidění na čtení.</h3><p>Odpověděli jste, že jste na vzdálenost 40 cm viděli zřetelně {successful} ze {steps} symbolů.<br>Ostatní vidí na stejnou vzdálenost jasně 36 ze 40 symbolů.<sup>*</sup><br><em class='small'>* Zdroj: Lisbeth Jelveh Sandfeld, PhD, hlavní konzultantka. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Vybrat novou zkoušku",
+        "title": "Zkouška zraku"
+    },
+    "page-scale": {
+        "intro": "<h3>Nastavení velikosti obrazovky</h3><p>Umístěte kreditní kartu na obrazovku do prostoru ořezových značek.<br>Pomocí tlačítek upravte velikost obrazovky. Upravte ořezové značky tak aby byly zarovnány se šířkou kreditní karty.<br>Po nastavení velikosti obrazovky stiskněte tlačítko „Připraven(a)“.</p>",
+        "larger-button": "Větší +1",
+        "larger-more-button": "Větší +5",
+        "larger-text": "<p>Větší</p>",
+        "smaller-button": "Menší -1",
+        "smaller-more-button": "Menší -5",
+        "smaller-text": "<p>Menší</p>",
+        "start-test-button": "Připraveno",
+        "title": "Zkouška zraku"
+    },
+    "page-test": {
+        "down": "Dolů",
+        "left": "Doleva",
+        "next-round": "Další kolo",
+        "notice-eye-shift": {
+            "description": "<p>Dále můžete provést zkoušku levého oka.<br>Zakryjte si <strong>pravé</strong> oko.<br>Držte obrazovku ve vzdálenosti {distance} od očí.<br>Stiskněte tlačítko „Další kolo“.</p>",
+            "title": "Nyní jste si vyzkoušeli pravé oko."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Nyní jste si vyzkoušeli pravé oko.<br>Dále můžete provést zkoušku levého oka.<br>Zakryjte si <strong>pravé</strong> oko.<br>Držte obrazovku ve vzdálenosti {distance} od očí.<br>Stiskněte tlačítko „Další kolo“.</p>",
+            "test-completed": "<p>Nyní jste provedli zkoušku levého oka a úspěšně ji dokončili.<br>Stiskněte tlačítko „Zobrazit výsledky“.</p>",
+            "title": "Dvě chyby"
+        },
+        "now-testing": "<strong>Zkouška</strong>",
+        "quit-test": "Opustit zkoušku",
+        "right": "Doprava",
+        "show-results": "Zobrazit výsledky",
+        "title": "Zkouška zraku",
+        "undo-last": "Vrátit poslední",
+        "up": "Nahoru"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}

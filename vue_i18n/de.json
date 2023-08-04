@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Sehtest",
+        "distance-2-m": "2 Meter",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Linkes Auge",
+        "right-eye": "Rechtes Auge",
+        "screen-warning": {
+            "description": "Wenn Sie ein Smartphone im Hochformat benutzen, können Sie versuchen, die Anzeige auf Querformat zu ändern.",
+            "title": "Es tut uns leid, Ihr Bildschirm ist zu schmal für den Online-Sehtest."
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Zurück",
+            "message-2-m": "<h3>ANLEITUNG FÜR DEN FERNSICHTTEST</h3><p>Um Ihr Fernsehvermögen zu testen, benötigen Sie einen Helfer.<br><span class='underline'>Dies geschieht folgendermaßen:</span></p><div class='first'><div class='text'><p>1. Platzieren Sie den Bildschirm 2 Meter von Ihren Augen entfernt. Messen Sie den Abstand genau ab. Ihr Helfer muss am Bildschirm stehen.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Bei dem Test werden Ihnen über 5 Runden jeweils 4 Kreise gezeigt. Zeigt die Öffnung der Kreise nach oben, unten, links oder rechts? Geben Sie Ihre Antworten ein, indem Sie über den Bildschirm wischen, die Pfeiltasten verwenden oder auf die Tasten drücken. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testen Sie jeweils ein Auge.</p></div></div><div class='fourth'><div class='text'><p>4. Beginnen Sie mit dem Abdecken des <strong>linken</strong> Auges.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Drücken Sie „TEST“, wenn Sie bereit sind.</p>",
+            "message-40-cm": "<h3>ANLEITUNG FÜR DEN NAHSEHTEST</h3><p>Sie können auch nur Ihr Nahsehvermögen testen.<br><span class='underline'>Das geschieht folgendermaßen:</span></p><div class='first'><div class='text'><p>1. Platzieren Sie den Bildschirm 40 cm von Ihren Augen entfernt. Messen Sie den Abstand genau ab.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Bei dem Test werden Ihnen über 5 Runden jeweils 4 Kreise gezeigt. Zeigt die Öffnung der Kreise nach oben, unten, links oder rechts? Geben Sie Ihre Antworten ein, indem Sie über den Bildschirm wischen, die Pfeiltasten verwenden oder auf die Tasten drücken.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testen Sie jeweils ein Auge.</p></div></div><div class='fourth'><div class='text'><p>4. Beginnen Sie mit dem Abdecken des <strong>linken</strong> Auges.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Drücken Sie „TEST“, wenn Sie bereit sind.</p>",
+            "start-test-button": "Test"
+        },
+        "set": {
+            "back-to-start-button": "Zurück",
+            "intro": "<h3>Abstand auswählen</h3><p>Sie können Ihr Sehvermögen in zwei Entfernungen testen:<br>Leseabstand (ca. 40 cm)<br>Weite Entfernung (ca. 2 m)</p>"
+        },
+        "title": "Sehtest"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Start",
+        "intro": "<h3>Willkommen beim Sehtest</h3><ol><li>Begeben Sie sich in einen Innenraum. </li><li>Schalten Sie die Hintergrundbeleuchtung vollständig ein. </li><li>Wenn Sie normalerweise eine Brille tragen, behalten Sie diese während des gesamten Tests auf.</li></ol><p>Drücken Sie auf „Start“.</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Sehtest"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Vielen Dank, dass Sie einen Eigen-Sehtest auf eye-sight.org durchgeführt haben. Wenn Sie im Zweifel bezüglich Ihrer Sehschärfe sind, wenden Sie sich bitte an einen Optiker. Kann Ihnen ein Optiker nicht zu absolut klarem Sehen verhelfen kann, ist es wichtig, den Grund dafür herauszufinden. Hier kann Ihnen ein Augenarzt helfen.<br><p>Dieser Sehtest:</p><ul><li>ist kein medizinisches Instrument;</li><li>eignet sich nicht für medizinische Zwecke;</li><li>ist für gesunde Personen bestimmt;</li><li>ersetzt keinen professionell durchgeführten Sehtest;</li><li>Erfasst keine personenbezogenen Daten über Sie oder andere. </li></ol><p>Wenden Sie sich an einen Optiker oder Augenarzt, wenn Sie Fragen oder Probleme bezüglich Ihres Sehvermögens haben.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/de\">Gehe zurück zu eye-sight.org</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Der Test Ihres Fernsehvermögens ist nun abgeschlossen. </h3><p>Sie haben geantwortet, in einem Abstand von 2 Metern {successful} von {steps} Symbolen scharf gesehen zu haben.<br>Andere können 40 von 40 Symbolen im selben Abstand deutlich erkennen.<sup>*</sup><br><em class='small'>* Quelle: Lisbeth Jelveh Sandfeld, PhD, Senior Consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463 <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Der Test Ihres Nahsehvermögens ist nun abgeschlossen.</h3><p>Sie haben geantwortet, in einem Abstand von 40 cm {successful} von {steps} Symbolen scharf gesehen zu haben.<br>Andere können 40 von 40 Symbolen im selben Abstand deutlich erkennen.<sup>*</sup><br><em class='small'>* Quelle: Lisbeth Jelveh Sandfeld, PhD, Senior Consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463 <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Einen neuen Test wählen",
+        "title": "Sehtest"
+    },
+    "page-scale": {
+        "intro": "<h3>Stellen Sie die Bildschirmgröße ein</h3><p>Legen Sie dazu eine Kreditkarte auf den umrandeten Bereich am Bildschirm.<br>Passen Sie die Ausschnittsgröße mit Hilfe der +- und -Tasten an die Kreditkartengröße an. Wichtig ist, dass der Ausschnitt die Breite der Kreditkarte hat.<br>Drücken Sie auf „Fertig“, wenn Sie die richtige Bildschirmgröße eingestellt haben.</p>",
+        "larger-button": "Größer +1",
+        "larger-more-button": "Größer +5",
+        "larger-text": "<p>Größer </p>",
+        "smaller-button": "Kleiner-1",
+        "smaller-more-button": "Kleiner -5",
+        "smaller-text": "<p>Kleiner</p>",
+        "start-test-button": "Fertig",
+        "title": "Sehtest"
+    },
+    "page-test": {
+        "down": "Ab",
+        "left": "Links",
+        "next-round": "Nächster Durchgang",
+        "notice-eye-shift": {
+            "description": "<p>Sie können jetzt das linke Auge testen.<br>Bedecken Sie Ihr <strong>rechtes</strong> Augen.<br>Halten Sie weiterhin den Bildschirm {distance} von Ihren Augen entfernt.<br>Drücken Sie „Nächster Durchgang“</p>",
+            "title": "Sie haben jetzt das rechte Auge getestet."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Sie haben jetzt das rechte Auge getestet.<br>Sie können jetzt das linke Auge testen.<br>Bedecken Sie Ihr <strong>rechtes</strong> Augen.<br>Halten Sie weiterhin den Bildschirm {distance} von Ihren Augen entfernt.<br>Drücken Sie „Nächster Durchgang“</p>",
+            "test-completed": "<p>Sie haben jetzt Ihr linkes Auge getestet und den Test abgeschlossen.<br>Drücken Sie auf „Ergebnisse anzeigen“</p>",
+            "title": "Zwei Fehler"
+        },
+        "now-testing": "<strong>Aktuell wird getestet</strong>",
+        "quit-test": "Test verlassen",
+        "right": "Rechts",
+        "show-results": "Ergebnisse anzeigen",
+        "title": "Sehtest",
+        "undo-last": "Letzte rückgängig machen",
+        "up": "Auf"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}

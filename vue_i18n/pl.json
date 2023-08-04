@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Test wzroku",
+        "distance-2-m": "2 m",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Lewe oko",
+        "right-eye": "Prawe oko",
+        "screen-warning": {
+            "description": "Jeśli używasz smartfona i trzymasz go pionowo, spróbuj obrócić go do położenia poziomego.",
+            "title": "Jeśli ekran Twojego urządzenia jest zbyt wąski, aby przeprowadzić test"
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Wstecz",
+            "message-2-m": "<h3>INSTRUKCJE PRZEPROWADZENIA TESTU WIDZENIA DALEKIEGO</h3><p>Do przeprowadzenia testu widzenia dalekiego będziesz potrzebować asystenta.<br><span class='underline'>Aby przetestować swoje widzenie dalekie:</span></p><div class='first'><div class='text'><p>1. Umieść ekran w odległości 2 m od oczu (dokładnie zmierz tę odległość). Asystent powinien stanąć przy monitorze.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Test pokazuje 4 koła na raz w ramach 5 rund. Czy otwór w kołach znajduje się u góry, na dole, z prawej czy z lewej strony? Twój asystent wprowadza odpowiedzi ruchem przesunięcia palcem, za pomocą klawiszy strzałek lub klikając na przyciski. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testuj jedno oko na raz.</p></div></div><div class='fourth'><div class='text'><p>4. Rozpocznij od zakrycia <strong>lewego</strong> oka.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Po przygotowaniu wszystkiego kliknij przycisk TEST.</p>",
+            "message-40-cm": "<h3>INSTRUKCJE PRZEPROWADZENIA TESTU WIDZENIA BLISKIEGO</h3><p>Swoje widzenie bliskie możesz przetestować samodzielnie.<br><span class='underline'>Aby przetestować swoje widzenie bliskie:</span></p><div class='first'><div class='text'><p>1. Umieść ekran w odległości 40 cm od oczu (dokładnie zmierz tę odległość).</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Test pokazuje 4 koła na raz w ramach 5 rund. Czy otwór w kołach znajduje się u góry, na dole, z prawej czy z lewej strony? Odpowiedzi możesz wprowadzać ruchem przesunięcia palcem, za pomocą klawiszy strzałek lub klikając na przyciski</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testuj jedno oko na raz.</p></div></div><div class='fourth'><div class='text'><p>4. Rozpocznij od zakrycia <strong>lewego</strong> oka.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Po przygotowaniu wszystkiego kliknij przycisk TEST.</p>",
+            "start-test-button": "Test"
+        },
+        "set": {
+            "back-to-start-button": "Wstecz",
+            "intro": "<h3>Wybierz odległość</h3><p>Swój wzrok możesz przetestować z dwóch odległości: <br>odległość widzenia bliskiego (ok. 40 cm)<br>odległość widzenia dalekiego (ok 2 m)</p>"
+        },
+        "title": "Test wzroku"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Start",
+        "intro": "<h3>Witamy w teście wzroku</h3><ol><li>Wejdź do pomieszczenia. </li><li>Włącz i rozjaśnij oświetlenie w tle. </li><li>Jeśli nosisz okulary, nie zdejmuj ich przez cały czas trwania testu.</li></ol><p>Naciśnij przycisk „Start”.</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Test wzroku"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Dziękujemy za samodzielne sprawdzenie ostrości swojego wzroku na stronie eye-sight.org. Jeśli masz wątpliwości, czy widzisz wyraźnie, zacznij od zwrócenia się do optyka. Jeśli optyk nie jest w stanie w pełni skorygować Twojego wzroku, trzeba sprawdzić, jakie są tego przyczyny. Wówczas należy zgłosić się do lekarza okulisty.<br><p>Niniejszy test wzroku:</p><ul><li>Nie jest wyrobem medycznym.</li><li>Nie może być używany do celów leczniczych ani medycznych.</li><li>Jest przeznaczony dla osób zdrowych.</li><li>Nie zastępuje profesjonalnie wykonanego badania wzroku.</li><li>Nie wiąże się ze zbieraniem żadnych danych, umożliwiających zidentyfikowanie użytkownika ani kogokolwiek innego. </li></ol><p>W razie pytań i wątpliwości dotyczących wzroku zwróć się do optyka lub do lekarza okulisty.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/pl\">Wróć do witryny eye-sight.org</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Badanie Twojego widzenia dalekiego dobiegło końca. </h3><p>Z Twoich odpowiedzi wynika, że z odległości 2 metrów udało się wyraźnie zobaczyć {successful} z {steps} symboli.<br>Innym osobom udało się z tej odległości wyraźnie zobaczyć 40 z 40 symboli. <sup>*</sup><br><em class='small'>* Źródło: Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Badanie Twojego widzenia bliskiego dobiegło końca.</h3><p>Z Twoich odpowiedzi wynika, że z odległości 40 cm udało się wyraźnie zobaczyć {successful} z {steps} symboli.<br>Innym osobom udało się z tej odległości wyraźnie zobaczyć 36 z 40 symboli.<sup>*</sup><br><em class='small'>* Źródło: Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Wybierz nowy test",
+        "title": "Test wzroku"
+    },
+    "page-scale": {
+        "intro": "<h3>Ustawianie wielkości obrazu</h3><p>Przyłóż kartę kredytową do ekranu w miejscu oznaczonym symbolami nacięć.<br>Za pomocą przycisków dopasuj wielkość obrazu na ekranie. Bardzo istotne jest ustawienie znaków na ekranie tak, żeby odpowiadały szerokości karty.<br>Po ustawieniu wielkości obrazu kliknij przycisk „Gotowe”.</p>",
+        "larger-button": "Zwiększ +1",
+        "larger-more-button": "Zwiększ +5",
+        "larger-text": "<p>Zwiększ</p>",
+        "smaller-button": "Zmniejsz -1",
+        "smaller-more-button": "Zmniejsz -5",
+        "smaller-text": "<p>Zmniejsz</p>",
+        "start-test-button": "Gotowe",
+        "title": "Test wzroku"
+    },
+    "page-test": {
+        "down": "W dół",
+        "left": "W lewo",
+        "next-round": "Następna runda",
+        "notice-eye-shift": {
+            "description": "<p>Teraz czas na test lewego oka.<br>Zakryj <strong>prawe</strong> oko.<br>Nadal utrzymuj ekran w odległości {distance} od oczu.<br>Naciśnij przycisk „Następna runda”.</p>",
+            "title": "Masz już za sobą test prawego oka."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Masz już za sobą test prawego oka.<br>Teraz czas na test lewego oka.<br>Zakryj <strong>prawe</strong> oko.<br>Nadal utrzymuj ekran w odległości {distance} od oczu.<br>Naciśnij przycisk „Następna runda”.</p>",
+            "test-completed": "<p>Masz już za sobą test lewego oka. Tym samym cały test dobiegł końca.<br>Kliknij przycisk „Pokaż wyniki”.</p>",
+            "title": "Dwa błędy"
+        },
+        "now-testing": "<strong>Badane oko</strong>",
+        "quit-test": "Przerwij test",
+        "right": "W prawo",
+        "show-results": "Pokaż wyniki",
+        "title": "Test wzroku",
+        "undo-last": "Wycofaj ostatnie",
+        "up": "W górę"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Látásvizsgálat",
+        "distance-2-m": "2 méter",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Bal szem",
+        "right-eye": "Jobb szem",
+        "screen-warning": {
+            "description": "Ha függőlegesen tartott okostelefont használ, próbálja meg vízszintes irányba dönteni az eszközt.",
+            "title": "A képernyője túl keskeny az önállóan elvégezhető látásélesség-vizsgálathoz."
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Vissza",
+            "message-2-m": "<h3>Utasítások a távolra látás vizsgálatához</h3><p>Ha meg szeretné vizsgálni, mennyire lát jól távolabbra, segítőre lesz szüksége.<br><span class='underline'>Így vizsgálhatja meg, mennyire lát jól távolra.</span></p><div class='first'><div class='text'><p>1. Helyezze a képernyőt 2 méterre a szemétől. Mérje le a távot pontosan. A segítőnek a képernyő mellett kell állnia.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. A teszten egyszerre négy kör jelenik meg öt alkalommal. Felfelé vagy lefelé, illetve balra vagy jobbra mutat-e a körök kezdete? A segítő pöccinthet, használhatja a nyílbillentyűket, vagy a gombok segítségével is megadhatja a válaszokat. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Egyszerre egy szemet vizsgáljon.</p></div></div><div class='fourth'><div class='text'><p>4. Kezdésképp takarja el a <strong>bal</strong> szemét.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Ha készen állnak, nyomja meg a „Vizsgálat” gombot.</p>",
+            "message-40-cm": "<h3>Utasítások az olvasáshoz használt látás vizsgálatához</h3><p>Egyedül is megvizsgálhatja, hogy mennyire lát jól olvasáshoz.<br><span class='underline'>Így vizsgálhatja meg, milyen az olvasáshoz használt látása:</span></p><div class='first'><div class='text'><p>1. Helyezze a képernyőt 40 cm távolságra a szemétől. Mérje le a távot pontosan.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. A teszten egyszerre négy kör jelenik meg öt alkalommal. Felfelé vagy lefelé, illetve balra vagy jobbra mutat-e a körök kezdete? Adja meg a válaszokat pöccintéssel, a nyílbillentyűkkel, vagy a gombokra kattintva.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Egyszerre egy szemet vizsgáljon..</p></div></div><div class='fourth'><div class='text'><p>4. Kezdésképp takarja el a <strong>bal</strong> szemét.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Ha készen áll, nyomja meg a „Vizsgálat” gombot.</p>",
+            "start-test-button": "Vizsgálat"
+        },
+        "set": {
+            "back-to-start-button": "Vissza",
+            "intro": "<h3>A távolság kiválasztása</h3><p>Kétféle távolságból vizsgálhatja meg a látását:<br>Olvasási távolság (nagyjából 40 cm)<br>Nagyobb távolság (nagyjából 2 méter)</p>"
+        },
+        "title": "Látásvizsgálat"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Indítás",
+        "intro": "<h3>Üdvözöljük a látásvizsgálaton!</h3><ol><li>Menjen be egy benti helyiségbe. </li><li>Állítsa a legmagasabbra a képernyő háttér-megvilágítását. </li><li>Ha szemüveget vagy kontaktlencsét hord, viselje az eszközt végig a vizsgálat alatt.</li></ol><p>Nyomja meg az „Indítás” gombot.</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Látásvizsgálat"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Köszönjük, hogy elvégezte az önálló látásélesség-vizsgálatot az eye-sight.org webhelyen. Ha nem biztos abban, hogy jól lát, első lépésként vegye fel a kapcsolatot egy optikussal. Ha az optikus felkeresése után sem lát tisztán, fontos utánajárni, hogy mi lehet ennek az oka. Ebben egy szemész lehet a segítségére.<br><p>A látásvizsgálat:</p><ul><li>Nem orvostechnikai eszköz.</li><li>Nem használható gyógyászati célokra.</li><li>Egészséges egyének számára készült.</li><li>Nem helyettesíti a szakértő által végzett látásvizsgálatot.</li><li>Nem gyűjt semmilyen személyazonosító adatot Önről vagy másokról. </li></ol><p>Ha egészségügyi kérdése vagy aggálya merül fel a látásával kapcsolatban, minden esetben egyeztessen egy optikussal vagy szemésszel.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/hu\">Visszatérés az eye-sight.org webhelyre</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Sikeresen megvizsgálta, hogy mennyire lát jól nagy távolságra.</h3><p>Válaszai alapján a {steps} szimbólumból ennyit látott tisztán 2 méteres távolságból: {successful}.<br>Mások ugyanerről a távolságról a 40 szimbólumból 40-et látnak tisztán.<sup>*</sup><br><em class='small'>* Forrás; Lisbeth Jelveh Sandfeld, PhD, rangidős tanácsadó. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Sikeresen megvizsgálta, hogy mennyire lát jól olvasáshoz.</h3><p>Válaszai alapján a {steps} szimbólumból ennyit látott tisztán 40 cm-es távolságból: {successful}.<br>Mások ugyanerről a távolságról a 40 szimbólumból 36-ot látnak tisztán.<sup>*</sup><br><em class='small'>* Forrás; Lisbeth Jelveh Sandfeld, PhD, rangidős tanácsadó. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Új vizsgálat kiválasztása",
+        "title": "Látásvizsgálat"
+    },
+    "page-scale": {
+        "intro": "<h3>A képernyőméret beállítása</h3><p>Helyezzen egy hitelkártyát a képernyőre a vágójelen belülre. <br>Állítsa be a képernyőméretet a gombokkal. Állítsa be a vágójelet úgy, hogy illeszkedjen a hitelkártyája szélességéhez.<br>A képernyőméret beállítása után nyomja meg a „Kész” gombot.</p>",
+        "larger-button": "Nagyobb +1",
+        "larger-more-button": "Nagyobb +5",
+        "larger-text": "<p>Nagyobb</p>",
+        "smaller-button": "Kisebb -1",
+        "smaller-more-button": "Kisebb -5",
+        "smaller-text": "<p>Kisebb</p>",
+        "start-test-button": "Kész",
+        "title": "Látásvizsgálat"
+    },
+    "page-test": {
+        "down": "Le",
+        "left": "Bal",
+        "next-round": "Következő szakasz",
+        "notice-eye-shift": {
+            "description": "<p>Most megvizsgálhatja a bal szemét.<br>Takarja le a <strong>jobb</strong> szemét.<br>Tartsa a képernyőt {distance} távolságra a szemétől.<br>Nyomja meg a „Következő kör” gombot.</p>",
+            "title": "Sikeresen megvizsgálta a jobb szemét."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Sikeresen megvizsgálta a jobb szemét.<br>Most megvizsgálhatja a bal szemét.<br>Takarja le a <strong>jobb</strong> szemét.<br>Tartsa a képernyőt {distance} távolságra a szemétől.<br>Nyomja meg a „Következő kör” gombot.</p>",
+            "test-completed": "<p>Sikeresen megvizsgálta a bal szemét, és ezzel a teszt végére ért.<br>Nyomja meg az „Eredmények megjelenítése” gombot.</p>",
+            "title": "Két hiba"
+        },
+        "now-testing": "<strong>Vizsgálat folyamatban</strong>",
+        "quit-test": "Kilépés a vizsgálatból",
+        "right": "Jobb",
+        "show-results": "Eredmények megjelenítése",
+        "title": "Látásvizsgálat",
+        "undo-last": "Utolsó visszavonása",
+        "up": "Fel"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Test zraku",
+        "distance-2-m": "2 metre",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Ľavé oko",
+        "right-eye": "Pravé oko",
+        "screen-warning": {
+            "description": "Ak používate smartfón a držíte ho na výšku, skúste telefón otočiť na šírku.",
+            "title": "Vaša obrazovka je príliš úzka na to, aby ste mohli vykonať digitálny test ostrosti zraku DIY (Urob si sám)."
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Späť",
+            "message-2-m": "<h3>Pokyny k testu videnia na vzdialenosť</h3><p>Na vykonanie testu videnia na vzdialenosť budete potrebovať pomocníka.<br><span class='underline'>Ako otestovať videnie na vzdialenosť:</span></p><div class='first'><div class='text'><p>1. Umiestnite obrazovku 2 metre od očí. Odmerajte vzdialenosť presne. Váš pomocník by mal stáť pri obrazovke.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Test zobrazuje súčasne štyri kruhy v piatich kolách. Smeruje otvor na kruhoch nahor, nadol, doľava alebo doprava? Váš pomocník zadá odpovede buď potiahnutím prstom, použitím klávesov so šípkami, alebo kliknutím na tlačidlá. </p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testujte vždy len jedno oko.</p></div></div><div class='fourth'><div class='text'><p>4. Začnite tak, že si prekryjete <strong>ľavé</strong> oko.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Keď ste pripravení, kliknite na tlačidlo „Test“.</p>",
+            "message-40-cm": "<h3>Pokyny k testu videnia na čítanie</h3><p>Môžete si sami otestovať videnie na čítanie.<br><span class='underline'>Ako otestovať videnie na čítanie:</span></p><div class='first'><div class='text'><p>1. Umiestnite obrazovku 40 cm od očí. Odmerajte vzdialenosť presne.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Test zobrazuje súčasne štyri kruhy v piatich kolách. Smeruje otvor na kruhoch nahor, nadol, doľava alebo doprava? Zadajte svoje odpovede potiahnutím prstom, použitím klávesov so šípkami alebo kliknutím na tlačidlá.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Testujte vždy len jedno oko.</p></div></div><div class='fourth'><div class='text'><p>4. Začnite tak, že si prekryjete <strong>ľavé</strong> oko.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Keď ste pripravení, kliknite na tlačidlo „Test“.</p>",
+            "start-test-button": "Test"
+        },
+        "set": {
+            "back-to-start-button": "Späť",
+            "intro": "<h3>Vyberte vzdialenosť</h3><p>Svoj zrak si môžete otestovať z dvoch vzdialeností:<br>Vzdialenosť pri čítaní (cca 40 cm)<br>Veľká vzdialenosť (cca 2 metre)</p>"
+        },
+        "title": "Test zraku"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Start",
+        "intro": "<h3>Vitajte v teste zraku</h3><ol><li>Test vykonávajte vo vnútri. </li><li>Úplne vypnite podsvietenie obrazovky. </li><li>Ak nosíte okuliare alebo kontaktné šošovky, nechajte si ich počas celého testu.</li></ol><p>Stlačte tlačidlo „Štart“.</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Test zraku"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Ďakujeme, že ste si urobili digitálny test ostrosti zraku DIY (Urob si sám) na stránke eye-sight.org. Ak si nie ste istí, či máte dobrý zrak, začnite tým, že sa obrátite na očného optika. Ak vám očný optik nemôže pomôcť, aby ste jasne videli, je dôležité, aby ste zistili prečo. V tomto vám môže pomôcť očný špecialista (oftalmológ).<br><p>Tento test zraku:</p><ul><li>Nie je zdravotníckou pomôckou.</li><li>Nie je vhodný na žiadne lekárske účely.</li><li>Je určený pre zdravé osoby.</li><li>Nenahrádza profesionálny test zraku.</li><li>Nezhromažďuje žiadne osobné identifikačné údaje o vás ani o nikom inom. </li></ol><p>Akékoľvek zdravotné otázky alebo obavy týkajúce sa vášho zraku vždy konzultujte s očným optikom alebo očným špecialistom.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/sk\">Vráťte sa na stránku eye-sight.org</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Teraz ste dokončili test videnia do diaľky</h3><p>Odpovedali ste, že zo vzdialenosti 2 metrov ste videli jasne {successful} zo {steps} symbolov.<br>Ostatní vidia jasne 40 zo 40 symbolov v rovnakej vzdialenosti.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Teraz ste dokončili test videnia na čítanie.</h3><p>Odpovedali ste, že zo vzdialenosti 40 cm ste videli jasne {successful} zo {steps} symbolov.<br>Ostatní vidia jasne 36 zo 40 symbolov v rovnakej vzdialenosti.<sup>*</sup><br><em class='small'>* Source; Lisbeth Jelveh Sandfeld, PhD, senior consultant. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Vyberte si nový test",
+        "title": "Test zraku"
+    },
+    "page-scale": {
+        "intro": "<h3>Upravte veľkosť obrazovky</h3><p>Položte kreditnú kartu na obrazovku do vnútra orezových značiek. <br>Pomocou tlačidiel upravte veľkosť obrazovky. Upravte orezové značky tak, aby boli zarovno so šírkou kreditnej karty.<br>Po úprave veľkosti obrazovky stlačte tlačidlo „Pripravený“.</p>",
+        "larger-button": "Väčšie +1",
+        "larger-more-button": "Väčšie +5",
+        "larger-text": "<p>Väčšie</p>",
+        "smaller-button": "Menšie -1",
+        "smaller-more-button": "Menšie -5",
+        "smaller-text": "<p>Menšie</p>",
+        "start-test-button": "Pripravený",
+        "title": "Test zraku"
+    },
+    "page-test": {
+        "down": "Nadol",
+        "left": "Doľava",
+        "next-round": "Ďalšie kolo",
+        "notice-eye-shift": {
+            "description": "<p>Teraz si môžete otestovať svoje ľavé oko.<br>Zakryte si <strong>pravé</strong> oko.<br>Ponechajte obrazovku {distance} od očí.<br>Stlačte možnosť „Ďalšie kolo“.</p>",
+            "title": "Teraz ste si otestovali svoje pravé oko."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Teraz ste si otestovali svoje pravé oko.<br>Teraz si môžete otestovať svoje ľavé oko.<br>Zakryte si <strong>pravé</strong> oko.<br>Ponechajte obrazovku {distance} od očí.<br>Stlačte možnosť „Ďalšie kolo“.</p>",
+            "test-completed": "<p>Teraz ste si otestovali svoje ľavé oko a dokončili test.<br>Stlačte možnosť „Zobraziť výsledky“.</p>",
+            "title": "Dve chyby"
+        },
+        "now-testing": "<strong>Testovanie</strong>",
+        "quit-test": "Opustiť test",
+        "right": "Doprava",
+        "show-results": "Zobraziť výsledky",
+        "title": "Test zraku",
+        "undo-last": "Zrušiť posledné",
+        "up": "Nahor"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}

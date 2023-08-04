@@ -1,0 +1,78 @@
+{
+    "global": {
+        "app-title": "eye-sight.org | Synstest",
+        "distance-2-m": "2 meter",
+        "distance-40-cm": "40 cm",
+        "left-eye": "Venstre øje",
+        "right-eye": "Højre øje",
+        "screen-warning": {
+            "description": "Hvis du benytter en smartphone og holder den lodret, kan du forsøge at vende telefonen, så du holder den vandret.",
+            "title": "Din skærm er for smal til, at du kan gennemføre gør det selv-synstesten. "
+        }
+    },
+    "page-distance": {
+        "info": {
+            "back-button": "Tilbage",
+            "message-2-m": "<h3>INSTRUKTION AFSTANDSSYN TEST</h3><p>Du har brug for en hjælper til at teste dit afstandssyn.<br><span class='underline'>Sådan tester I afstandssynet:</span></p><div class='first'><div class='text'><p>1. Placer skærmen 2 meter fra dine øjne, mål afstanden nøjagtigt op. Din hjælper skal stå ved skærmen.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. Testen viser 4 cirkler ad gangen i 5 runder. Peger åbningen i cirklerne op, ned, til venstre eller højre? Din hjælper indtaster dine svar ved at swipe, bruge piletasterne eller klikke på knapperne.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test et øje ad gangen.</p></div></div><div class='fourth'><div class='text'><p>4. Start med at dække <strong>venstre</strong> øje.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Tryk \"TEST\", når du er klar</p>",
+            "message-40-cm": "<h3>INSTRUKTION LÆSESYN TEST</h3><p>Du kan udføre testen af dit læsesyn alene.<br><span class='underline'>Sådan tester du dit læsesyn:</span></p><div class='first'><div class='text'><p>1. Placer skærmen 40 cm fra dine øjne, mål afstanden nøjagtigt op.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. Testen viser 4 cirkler ad gangen i 5 runder. Peger åbningen i cirklerne op, ned, til venstre eller højre? Indtast dine svar ved at swipe, bruge piletasterne eller klikke på knapperne.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test et øje ad gangen.</p></div></div><div class='fourth'><div class='text'><p>4. Start med at dække <strong>venstre</strong> øje.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Tryk \"TEST\", når du er klar</p>",
+            "start-test-button": "Test"
+        },
+        "set": {
+            "back-to-start-button": "Tilbage",
+            "intro": "<h3>Vælg afstand</h3><p>Du kan teste dit syn på to afstande:<br>Læseafstand (cirka 40 cm)<br>Lang afstand (cirka 2 meter)</p>"
+        },
+        "title": "Synstest"
+    },
+    "page-intro": {
+        "calibrate-screen-button": "Start",
+        "intro": "<h3>Velkommen til synstesten</h3><ol><li>Gå indenfor.</li><li>Skru helt op for baggrundsbelysningen.</li><li>Bruger du briller, så behold dem på under hele testen.</li></ol><p>Tryk \"Start\".</p>",
+        "learn-more-link": "<a href=\"\">Visit the eye-sight.org website to learn more</a>",
+        "title": "Synstest"
+    },
+    "page-results": {
+        "disclaimer-10": "",
+        "disclaimer-5": "<p>Tak, fordi du tog en gør det selv-synstest på eye-sight.org. Er du er i tvivl, om du ser helt tydeligt, så start med at kontakte en optiker. Kan en optiker ikke få dig til at se helt tydeligt, er det vigtigt, at du finder ud af hvorfor. Det kan en øjenlæge hjælpe dig med.<br><p>Denne synstest:</p><ul><li>Er ikke medicinsk udstyr.</li><li>Kan ikke anvendes til lægefaglige eller medicinske formål.</li><li>Er beregnet til raske personer.</li><li>Erstatter ikke en professionelt udført synstest.</li><li>Indsamler ingen personhenførbare oplysninger om dig eller nogen andre.</li></ol><p>Kontakt altid en optiker eller øjenlæge, hvis du har spørgsmål eller bekymringer om dit syn.</p>",
+        "go-back-link": "<a href=\"https://eye-sight.org/da\">Gå tilbage til eye-sight.org</a>",
+        "message-10-2-m": "",
+        "message-10-40-cm": "",
+        "message-5-2-m": "<h3>Testen af dit afstandssyn er nu afsluttet.</h3><p>Du har svaret, at du så {successful} ud af {steps} symboler tydeligt på 2 m afstand.<br>Andre kan se 40 ud af 40 symboler tydeligt på samme afstand.<sup>*</sup><br><em class='small'>* Kilde; Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "message-5-40-cm": "<h3>Testen af dit læsesyn er nu afsluttet.</h3><p>Du har svaret, at du så {successful} ud af {steps} symboler tydeligt på 40 cm afstand.<br>Andre kan se 36 ud af 40 symboler tydeligt på samme afstand.<sup>*</sup><br><em class='small'>* Kilde; Lisbeth Jelveh Sandfeld, PhD, senior consultant, Ophthalmology. Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+        "test-again-button": "Vælg en ny test",
+        "title": "Synstest"
+    },
+    "page-scale": {
+        "intro": "<h3>Indstil skærmstørrelsen</h3><p>Læg et kreditkort på skærmen inden for skæremærkerne.<br>Tilpas skærmstørrelsen ved brug af knapperne. Det er vigtigt, at skæremærkerne indstilles, så de svarer til bredden på kreditkortet.<br>Tryk ”Klar”, når du har indstillet skærmstørrelsen.</p>",
+        "larger-button": "Større +1",
+        "larger-more-button": "Større +5",
+        "larger-text": "<p>Større</p>",
+        "smaller-button": "Mindre -1",
+        "smaller-more-button": "Mindre -5",
+        "smaller-text": "<p>Mindre</p>",
+        "start-test-button": "Klar",
+        "title": "Synstest"
+    },
+    "page-test": {
+        "down": "Ned",
+        "left": "Venstre",
+        "next-round": "Næste runde",
+        "notice-eye-shift": {
+            "description": "<p>Du kan nu teste venstre øje.<br>Dæk dit <strong>højre</strong> øje.<br>Hold fortsat skærmen {distance} væk fra dine øjne.<br>Tryk \"Næste runde\".</p>",
+            "title": "Du har nu testet højre øje."
+        },
+        "notice-too-many-errors": {
+            "next-eye": "<p>Du har nu testet højre øje.<br>Du kan nu teste venstre øje.<br>Dæk dit <strong>højre</strong> øje.<br>Hold fortsat skærmen {distance} væk fra dine øjne.<br>Tryk \"Næste runde\".</p>",
+            "test-completed": "<p>Du har nu testet dit venstre øje og gennemført testen.<br>Tryk på \"Vis resultat\".</p>",
+            "title": "To fejl"
+        },
+        "now-testing": "<strong>Nu testes</strong>",
+        "quit-test": "Forlad test",
+        "right": "Højre",
+        "show-results": "Vis resultat",
+        "title": "Synstest",
+        "undo-last": "Fortryd sidste",
+        "up": "Op"
+    },
+    "page-proper-dimensions": {
+        "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+    }
+}
