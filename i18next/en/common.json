@@ -1,6 +1,12 @@
 {
+  "tandis que moi": "je suis une cl\u00e9 normale",
   "je": {
-    "suis": { "une": { "clé": { "profonde": "et ceci est ma valeur" } } }
-  },
-  "tandis que moi": "je suis une clé normale"
+    "suis": {
+      "une": {
+        "cl\u00e9": {
+          "profonde": "et ceci est ma valeur"
+        }
+      }
+    }
+  }
 }
