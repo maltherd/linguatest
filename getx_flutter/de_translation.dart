@@ -1,1 +1,1 @@
-final Map<String, String> de = {};
+final Map<String, String> de = {                    };
