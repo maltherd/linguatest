@@ -1,0 +1,21 @@
+{
+  "registerScreenCreate_account_button": "Register",
+  "wrongPassword": "Incorrect email address or password",
+  "passwordForgotButton": "Recover my password",
+  "loginScreenRegisterButton": "create an account",
+  "loginScreenPassword": "Password",
+  "userNotFound": "",
+  "loginScreenLoginButton": "Login",
+  "registerScreenEmail": "Email",
+  "loginScreenEmail": "Email",
+  "registerScreenFirstname": "Firstname",
+  "registerScreenConfirm_password": "Confirm password",
+  "fieldRequired": "This field is mandatory",
+  "registerScreenBirthday": "Date of birth",
+  "serverError": "An error has occurred. Please try again later.",
+  "passwordForgotScreenButton": "Forgot your password?",
+  "invalidEmail": "The email format is invalid",
+  "registerScreenPassword": "Password",
+  "passwordForgotSuccess": "An email has been sent",
+  "registerScreenLastname": "Lastname"
+}
