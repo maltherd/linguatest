@@ -1,0 +1,23 @@
+{
+  "loginScreenEmail": "Email",
+  "loginScreenPassword": "Mot de passe",
+  "loginScreenLoginButton": "Connecter",
+  "loginScreenRegisterButton": "créer un compte",
+  "passwordForgotScreenButton": "mot de passe oublié",
+  "fieldRequired": "Ce champs est obligatoire",
+  "userNotFound": "Utilisateur introuvable",
+  "invalidEmail": "Le format de l'email est invalide",
+  "wrongPassword": "L'email ou le mot de passe sont incorrect",
+  "passwordForgotButton": "Récuperer mon mot de passe",
+  "passwordForgotSuccess": "Un email a été envoyé",
+  "serverError": "Une erreur est survenu, veuillez réessayer plus tard",
+  "registerScreenEmail": "Email",
+  "registerScreenPassword": "Mot de passe",
+  "registerScreenConfirm_password": "Confirmer le mot de passe",
+  "registerScreenCreate_account_button": "M'enregistrer",
+  "registerScreenFirstname": "Firstname",
+  "registerScreenLastname": "Lastname",
+  "registerScreenBirthday": "Date de naissance",
+  "userNotFound":"",
+  "loginScreenLoginButton":"Login"
+}
