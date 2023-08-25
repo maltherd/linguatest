@@ -1,1 +1,88 @@
-{}
+{
+  "page-scale": {
+    "smaller-more-button": "Pi\u00f9 piccolo -5",
+    "smaller-text": "<p>Pi\u00f9 piccolo</p>",
+    "start-test-button": "Pronto",
+    "larger-button": "Pi\u00f9 grande +1",
+    "intro": "<h3>Regolare le dimensioni dello schermo</h3><p>Posizionare una carta di credito sullo schermo all'interno dei crocini.<br>Regolare le dimensioni dello schermo utilizzando i pulsanti. Regolare i crocini in modo che si allineino alla larghezza della carta di credito.<br>Premere \"Pronto\" una volta regolate le dimensioni dello schermo.</p>",
+    "smaller-button": "Pi\u00f9 piccolo -1",
+    "title": "Test della vista",
+    "larger-more-button": "Pi\u00f9 grande +5",
+    "larger-text": "<p>Pi\u00f9 grande</p>"
+  },
+  "page-checklist": {
+    "checkbox-6": "Mi tengo all'occhio sinistro",
+    "start-test-button": "asdasdTest",
+    "checkbox-3": "Ho alzato completamente la luminosit\u00e0",
+    "checkbox-1": "Sono dentro",
+    "checkbox-4": "Ho misurato che i miei occhi si trovano a 40 cm / 2 metri di distanza dallo schermo.",
+    "checkbox-2": "Ho personalizzato la schermata in base alla carta di credito",
+    "checkbox-5": "Porto gli occhiali (se porti gli occhiali)"
+  },
+  "page-results": {
+    "message-5-2-m": "<h3>Avete completato il test della visione a distanza.</h3><p>Lei ha risposto di aver visto chiaramente {successful} of the {steps} simboli a una distanza di 2 metri.<br>Altri possono vedere chiaramente 40 simboli su 40 alla stessa distanza<sup>.*</sup><br> *<em class='small'> Fonte; Lisbeth Jelveh Sandfeld, PhD, consulente senior. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+    "disclaimer-5": "<p>Grazie per aver partecipato al test di acutezza visiva digitale fai da te su eye-sight.org. Se non siete sicuri di avere una buona vista, iniziate a contattare un ottico. Se l'ottico non \u00e8 in grado di aiutarvi a vedere bene, \u00e8 importante che ne scopriate il motivo. Uno specialista della vista (oftalmologo) pu\u00f2 aiutarvi.<br><p>Questo test della vista:</p><ul><li>Non \u00e8 un dispositivo medico.</li><li>Non \u00e8 adatto a scopi medici.</li><li>\u00c8 destinato a individui sani.</li><li>Non \u00e8 destinato a sostituire un test della vista professionale.</li><li>Non raccoglie dati personali identificabili su di voi o su chiunque altro. </li></ol><p>Consultare sempre un ottico o un oculista per qualsiasi domanda o dubbio di natura medica sulla propria vista.</p>",
+    "error": "la vostra visione \u00e8 qui sotto",
+    "disclaimer-10": "",
+    "go-back-link": "<a href=\"https://eye-sight.org\">Torna a eye-sight.org</a>",
+    "message-10-40-cm": "<b>Risultati a 40 cm:</b> occhio sinistro {leftResult} and right eye {rightResult}",
+    "test-again-button": "Selezionare un nuovo test",
+    "message-10-2-m": "<b>Risultati a 2 m:</b> occhio sinistro {leftResult} and right eye {rightResult}",
+    "message-5-40-cm": "<h3>Avete completato il test di lettura.</h3><p>Lei ha risposto di aver visto chiaramente {successful} of the {steps} simboli a una distanza di 40 cm.<br>Altri possono vedere chiaramente 36 dei 40 simboli alla stessa distanza<sup>.*</sup><br> *<em class='small'> Fonte; Lisbeth Jelveh Sandfeld, PhD, consulente senior. Opthalmology, Baptista AMG, Serra PM, McAlinden C, Barrett BT (2017) Vision in high-level football officials. PLoS ONE 12(11): e0188463. <a href='https://doi.org/10.1371/journal.pone.0188463'>https://doi.org/10.1371/journal.pone.0188463</a></em></p>",
+    "title": "Test della vista"
+  },
+  "page-test": {
+    "notice-eye-shift": {
+      "description": "<p>Ora \u00e8 possibile testare l'occhio sinistro.<br>Coprire l'occhio <strong>destro</strong>.<br>Tenere lo schermo {distance} lontano dagli occhi<br>Premere \"Prossimo giro\".</p>",
+      "title": "Ora avete testato l'occhio destro."
+    },
+    "right": "Diritto",
+    "next-round": "Il prossimo turno",
+    "up": "Su",
+    "notice-too-many-errors": {
+      "test-completed": "<p>Il test dell'occhio sinistro \u00e8 stato completato. <br>Premere \"Mostra risultati\".</p>",
+      "next-eye": "<p>\u00c8 stato testato l'occhio destro.<br>Ora \u00e8 possibile testare l'occhio sinistro.<br>Coprire l'occhio <strong>destro</strong>.<br>Tenere lo schermo {distance} lontano dagli occhi<br>Premere \"Prossimo giro\".</p>",
+      "title": "Due errori"
+    },
+    "down": "In basso",
+    "quit-test": "Test di congedo",
+    "now-testing": "<strong>Test</strong>",
+    "undo-last": "Annullamento dell'ultimo",
+    "left": "A sinistra",
+    "show-results": "Mostra i risultati",
+    "title": "Test della vista"
+  },
+  "global": {
+    "right-eye": "Occhio destro",
+    "screen-warning": {
+      "description": "Se si utilizza uno smartphone e lo si tiene in verticale, provare a inclinare il telefono in orizzontale.",
+      "title": "Lo schermo \u00e8 troppo stretto per eseguire il test di acutezza visiva digitale fai da te. "
+    },
+    "left-eye": "Occhio sinistro",
+    "app-title": "eye-sight.org | Test della vista",
+    "distance-40-cm": "40 cm",
+    "distance-2-m": "2 metri"
+  },
+  "page-intro": {
+    "calibrate-screen-button": "Inizio",
+    "title": "Test della vista",
+    "intro": "<h3>Benvenuti al test della vista</h3><ol><li>Entrate in casa.</li><li>Alzare completamente la retroilluminazione dello schermo.</li><li>Se si indossano occhiali o lenti a contatto, tenerli accesi per tutta la durata del test.</li></ol><p>Premere \"Start\".</p><div class=\"infos\"><img class=\"image\" src=\"{imgInfos}\" /><div><p><strong>Dispositivo medico:</strong><br />DIY Digital Acuity Visual Test</p><p><strong>Produttore:</strong><br />\u00d8jenforeningen V\u00e6rn om Synet</p><p><strong>Solo per uso sperimentale:</strong><br />L'uso del dispositivo \u00e8 limitato all'indagine clinica e non pu\u00f2 essere utilizzato per altri scopi.</p></div></div>",
+    "learn-more-link": "<a href=\"\">Per saperne di pi\u00f9, visitate il sito web eye-sight.org</a>"
+  },
+  "page-distance": {
+    "set": {
+      "back-to-start-button": "Indietro",
+      "intro": "<h3>Selezionare la distanza</h3><p>\u00c8 possibile testare la vista da due distanze:<br>Distanza di lettura (circa 40 cm)<br>Distanza lunga (circa 2 metri)</p>"
+    },
+    "info": {
+      "message-2-m": "<h3>Istruzioni per il test della visione da lontano</h3><p>Per effettuare il test della visione da lontano \u00e8 necessario un aiutante.<br><span class='underline'>Come effettuare il test della visione da lontano.</span></p><div class='first'><div class='text'><p>1. Posizionare lo schermo a 2 metri dagli occhi. Misurare accuratamente la distanza. L'aiutante deve stare in piedi accanto allo schermo.</p></div><div class='image'><img src=\"{distance2m}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in twelve rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Your helper should enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Premere \"Test\" quando entrambi siete pronti.</p>",
+      "back-button": "Indietro",
+      "message-40-cm": "<h3>Istruzioni per il test della vista per la lettura</h3><p>\u00c8 possibile eseguire il test della visione di lettura da soli.<br><span class='underline'>Come eseguire il test della visione di lettura:</span></p><div class='first'><div class='text'><p>1. Posizionare lo schermo a 40 cm dagli occhi. Misurare accuratamente la distanza.</p></div><div class='image'><img src=\"{distance40cm}\"></div></div><div class='second'><div class='text'><p>2. The test shows four circles at a time in eleven rounds. Is the opening in the circles pointing upwards, downwards, to the left or to the right? Enter your answers by swiping, using the arrow keys, or clicking on the buttons.</p></div><div class='image'><img src=\"{direction}\"></div></div><div class='third'><div class='text'><p>3. Test one eye at a time.</p></div></div><div class='fourth'><div class='text'><p>4. Start by covering your <strong>left</strong> eye.</p></div><div class='image'><img src=\"{coverLeft}\"></div></div><p class='center'>Premere \"Continua\" quando si \u00e8 pronti.</p>",
+      "start-test-button": "Continua"
+    },
+    "title": "Test della vista"
+  },
+  "page-proper-dimensions": {
+    "proper-device": "Le dimensioni effettive dello schermo del dispositivo non sono supportate<br />La finestra deve avere una dimensione minima di 24 cm x 15 cm<br />Passare a un dispositivo compatibile"
+  }
+}
