@@ -1,6 +1,7 @@
 {
   "new-key": {
-    "hello-i-am-lower-key": "AAAAAAAAAAAAAAAAA"
+    "hello-i-am-lower-key": "AAAAAAAAAAAAAAAAA",
+    "key-2": ""
   },
   "page-scale": {
     "smaller-more-button": "R\u00e9duire -5",
