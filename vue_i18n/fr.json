@@ -1,8 +1,4 @@
 {
-  "new-key": {
-    "hello-i-am-lower-key": "AAAAAAAAAAAAAAAAA",
-    "key-2": ""
-  },
   "page-scale": {
     "smaller-more-button": "R\u00e9duire -5",
     "smaller-text": "<p>R\u00e9duire</p>",
@@ -88,5 +84,9 @@
   },
   "page-proper-dimensions": {
     "proper-device": "The actual screen size of your device is not supported<br />You should have a window size of min 24cm x 15 cm<br />Please switch to a compliant device"
+  },
+  "new-key": {
+    "hello-i-am-lower-key": "AAAAAAAAAAAAAAAAA",
+    "key-2": ""
   }
 }
