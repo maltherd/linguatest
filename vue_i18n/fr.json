@@ -1,4 +1,7 @@
 {
+  "new-key": {
+    "hello-i-am-lower-key": "AAAAAAAAAAAAAAAAA",
+  },
   "page-scale": {
     "smaller-more-button": "R\u00e9duire -5",
     "smaller-text": "<p>R\u00e9duire</p>",
